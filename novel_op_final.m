@@ -1,8 +1,8 @@
 clear, close all;
 %parameters
-anchNum = 5; nodeNum = 200; range = 100;
-tau = 0.2; Generation = 2000; N = 200;
-mutationRate = 0.1; initRate = tau/2; F = 0.3; crossRate = 0.5;
+anchNum = 5; nodeNum = 500; range = 100;
+tau = 0.1; Generation = 3000; N = 200;
+mutationRate = 0.1; initRate = tau/2; F = 0.3;
 alpha = 0.1;
 % Generate data
 %其中nodeCoor只在评价时使用
